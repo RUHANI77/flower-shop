@@ -145,6 +145,7 @@ header {
   color: #272727;
   font-size: 40px;
   font-weight: 800;
+  text-align: center;
 }
 .insta-description {
   color: rgba(39, 39, 39, 0.6);
@@ -191,4 +192,54 @@ header {
   border: 0;
   font-size: 18px;
   padding-left: 20px;
+}
+/* Footer */
+footer {
+  color: white;
+  background-color: #111010;
+  text-align: center;
+  padding: 70px 300px;
+}
+.footer-title {
+  font-size: 48px;
+  font-weight: 800;
+}
+.footer-title span {
+  color: #e55473;
+}
+.footer-description {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.copy-right {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+}
+/* Buy Now */
+.buy-now {
+  margin: 50px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  background-color: aliceblue;
+  border-radius: 8px;
+}
+.flower-price {
+  display: flex;
+  color: #272727;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+}
+.buy-now img {
+  width: 240px;
+  height: 240px;
+}
+.buy-now-div {
+  margin-right: 20px;
 }
